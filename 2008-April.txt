@@ -1,0 +1,180 @@
+From opendaw at jacklab.org  Tue Apr 15 23:38:09 2008
+From: opendaw at jacklab.org (Michael Bohle)
+Date: Tue, 15 Apr 2008 23:38:09 +0200
+Subject: [Jacklab-devel] Hi there
+Message-ID: <20080415233809.4608279d@michamobil.studio>
+
+Here I have some rpm lists with special software selections.
+
+1: a pure basic gui suse (only opensuse oss)
+2: based on 1: a full featured kde desktop environment (only opensuse
+oss)
+3: based on 2: a selection of important pro audio and multimedia apps
+(plus packman)
+
+use diff for differences. more lists will follow
+
+-metasymbol
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: rpms-docu.tar.gz
+Type: application/x-gzip
+Size: 9124 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/jacklab-devel/attachments/20080415/8569d77a/attachment.bin>
+
+From opendaw at jacklab.org  Wed Apr 16 00:22:30 2008
+From: opendaw at jacklab.org (Michael Bohle)
+Date: Wed, 16 Apr 2008 00:22:30 +0200
+Subject: [Jacklab-devel] more differences
+Message-ID: <20080416002230.1ce9aa24@michamobil.studio>
+
+Here i made some different collections:
+
+1: base gui suse (oss only)
+2: e17/fluxbox plus kde3 light multimedia desktop (packman, e17, oss,
+wine, jacklab) NOTE: I forgot "kdeutils3" (ark etc)
+3: plus some devel packs and kernel-src for rebuilding rpm's/km's
+
+take a note:
+-no packages where updated
+-no kernel-rt is selected
+
+metamicha
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: rmps-doku2.tar.gz
+Type: application/x-gzip
+Size: 7266 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/jacklab-devel/attachments/20080416/b7135111/attachment.bin>
+
+From appleonkel at flashgrafik.de  Wed Apr 16 00:55:43 2008
+From: appleonkel at flashgrafik.de (Oliver Bengs)
+Date: Wed, 16 Apr 2008 00:55:43 +0200
+Subject: [Jacklab-devel] more differences
+In-Reply-To: <20080416002230.1ce9aa24@michamobil.studio>
+References: <20080416002230.1ce9aa24@michamobil.studio>
+Message-ID: <20080416005543.453b5a1b@huygens.nasa>
+
+Am Wed, 16 Apr 2008 00:22:30 +0200
+schrieb Michael Bohle <opendaw at jacklab.org>:
+
+> Here i made some different collections:
+> 
+> 1: base gui suse (oss only)
+
+There is no difference between this one from your first post ;)
+
+> 2: e17/fluxbox plus kde3 light multimedia desktop (packman, e17, oss,
+> wine, jacklab) NOTE: I forgot "kdeutils3" (ark etc)
+
+What does etc mean?
+
+> 3: plus some devel packs and kernel-src for rebuilding rpm's/km's
+
+Ah this is good :D
+ 
+> take a note:
+> -no packages where updated
+> -no kernel-rt is selected
+
+This is no problem, kiwi will handle this.
+I sorted the lists alphabetical and loaded them up to
+http://tinyurl.com/4acgmw (our svn)
+
+Thank you
+-- 
+Oliver Bengs
+Key fingerprint = 8F45 91CA 4038 41D3 2FF7  8A65 D3A3 3358 A16E A024
+
+http://jacklab.org
+
+
+From opendaw at jacklab.org  Wed Apr 16 04:02:08 2008
+From: opendaw at jacklab.org (Michael Bohle)
+Date: Wed, 16 Apr 2008 04:02:08 +0200
+Subject: [Jacklab-devel] more differences
+In-Reply-To: <20080416005543.453b5a1b@huygens.nasa>
+References: <20080416002230.1ce9aa24@michamobil.studio>
+	<20080416005543.453b5a1b@huygens.nasa>
+Message-ID: <20080416040208.0228c3ca@michamobil.studio>
+
+Am Wed, 16 Apr 2008 00:55:43 +0200
+schrieb Oliver Bengs <appleonkel at flashgrafik.de>:
+
+> Am Wed, 16 Apr 2008 00:22:30 +0200
+> schrieb Michael Bohle <opendaw at jacklab.org>:
+> 
+> > Here i made some different collections:
+> > 
+> > 1: base gui suse (oss only)
+> 
+> There is no difference between this one from your first post ;)
+
+Really? ;)
+
+> 
+> > 2: e17/fluxbox plus kde3 light multimedia desktop (packman, e17,
+> > oss, wine, jacklab) NOTE: I forgot "kdeutils3" (ark etc)
+> 
+> What does etc mean?
+
+Kdeutils3 is a mix of some useful utilities like "ark" and some I don't
+remember. this means the etc ;)
+> 
+> > 3: plus some devel packs and kernel-src for rebuilding rpm's/km's
+> 
+> Ah this is good :D
+>  
+> > take a note:
+> > -no packages where updated
+> > -no kernel-rt is selected
+> 
+> This is no problem, kiwi will handle this.
+> I sorted the lists alphabetical and loaded them up to
+> http://tinyurl.com/4acgmw (our svn)
+> 
+> Thank you
+
+
+looking forward. next I will make an "ubuntustudio - like" gnome/xfce
+installation. 
+
+
+
+From appleonkel at flashgrafik.de  Wed Apr 16 14:25:21 2008
+From: appleonkel at flashgrafik.de (Oliver Bengs)
+Date: Wed, 16 Apr 2008 14:25:21 +0200
+Subject: [Jacklab-devel] more differences
+In-Reply-To: <20080416040208.0228c3ca@michamobil.studio>
+References: <20080416002230.1ce9aa24@michamobil.studio>
+	<20080416005543.453b5a1b@huygens.nasa>
+	<20080416040208.0228c3ca@michamobil.studio>
+Message-ID: <20080416142521.79d9b1f5@huygens.nasa>
+
+Am Wed, 16 Apr 2008 04:02:08 +0200
+schrieb Michael Bohle <opendaw at jacklab.org>:
+
+
+> > > 2: e17/fluxbox plus kde3 light multimedia desktop (packman, e17,
+> > > oss, wine, jacklab) NOTE: I forgot "kdeutils3" (ark etc)
+> > 
+> > What does etc mean?
+> 
+> Kdeutils3 is a mix of some useful utilities like "ark" and some I
+> don't remember. this means the etc ;)
+
+Right! Ah you forgot only the package kdeutils3 and in this package is
+ark for example and 8 other programs. So I add only kdeutils3 and all
+will be fine :D
+I didn't got it that ark is part of it ;)
+
+-- 
+Oliver Bengs
+Key fingerprint = 8F45 91CA 4038 41D3 2FF7  8A65 D3A3 3358 A16E A024
+
+http://jacklab.org
+
+

@@ -1,0 +1,65 @@
+From r.neike at gmx.de  Tue Sep  6 10:03:06 2005
+From: r.neike at gmx.de (Renate Neike)
+Date: Tue, 6 Sep 2005 10:03:06 +0200 (MEST)
+Subject: [Jacklab-devel] die neue Situation
+Message-ID: <2611.1125993786@www2.gmx.net>
+
+Hallo,
+
+ich habe mir nun mal so meine Gedanken zur neuen Situation ohne Packager
+gemacht.
+
+Diese betreffen allerdings haupts?chlich unsere Web-Seite, speziell die
+Programm-Seiten.
+In diesen m?sste ja nun wieder jeder Programm-Link angepasst/ver?ndert
+werden.
+Wobei wir im Moment noch nicht einmal genau wissen, welcher suser welche
+RPM's baut.
+Einen gro?en Teil hat oc2pus in sein Repository ?bernommen ... er wird aber
+nicht mehr die volle Breite bereitstellen.
+Sein Angebot an RPM's richtet sich sehr stark nach den Statistiken.
+Somit fallen RPM's mit geringen Downloadzahlen fr?her od. sp?ter weg bzw.
+sind jetzt schon nicht mehr in seinem Repository vertreten.
+Wir m?ssten dann nach Ersatz-susern suchen, wenn wir es denn wollen.
+Bzw. will oc2pus selbst auch einige rpm's an andere suser "abtreten" ... ka,
+wer das sein wird bzw. ab wann dies passieren wird.
+
+Daher eine Idee von mir:
+
+Die ?bersichtsseiten bleiben.
+Bsp:
+http://www.jacklab.net/index.php?option=com_content&task=blogcategory&id=141&Itemid=121&lang=de_DE
+- die Versionen werden von mir auf dem Laufenden gehalten
+- die Bezeichnung "JackLab-rpm" behalten wir an dieser Stelle auch
+- als Erl?uterung "JackLab-rpm" = f?r JackLab relevantes RPM
+
+Nun zu den Programm-Seiten selbst (Bsp:
+http://www.jacklab.net/index.php?option=com_content&task=blogcategory&id=150&Itemid=130&lang=de_DE
+)
+
+Mein Vorschlag:
+Die direkten Links w?rde ich von der Seite g?nzlich verschwinden lassen.
+Stattdessen kommt ein Link in das entsprechende Repository pro SuSE-Version
+auf die Seite.
+
+Bei suser-tux sollte man nachfragen, ob wir den SuSE 9.1er Stand so auf dem
+JackLab-Server einfrieren kann mit der Bemerkung, dass diese RPM's vom
+Packager nicht mehr supportet werden.
+Und irgendwann mal werden sie dann gel?scht.
+
+Dann sind die 3 Links unter "Neueste RPM's" - SuSE 9.x IMHO hinf?llig.
+Wir k?nnen nicht jeweils in ein Repository verlinken, da es zuk?nftlich
+mehrere Repositorys mit JackLab-relevanten RPM's geben wird.
+
+Soweit von mir.
+Mag sein, dass diese Gedanken im Moemnt die allerletzten sind, die wirklich
+wichtig sind ... aber ich wollte sie schon trotzdem loswerden.
+
+Gru?
+Renate
+
+-- 
+5 GB Mailbox, 50 FreeSMS http://www.gmx.net/de/go/promail
++++ GMX - die erste Adresse f?r Mail, Message, More +++
+
+

@@ -1,0 +1,49 @@
+From appleonkel at flashgrafik.de  Sun Jan 27 14:10:48 2008
+From: appleonkel at flashgrafik.de (Oliver Bengs)
+Date: Sun, 27 Jan 2008 14:10:48 +0100
+Subject: [Jacklab-devel] Huhu!
+Message-ID: <20080127141048.188b9442@huygens.nasa>
+
+Damn falscher Absender
+
+-- 
+Oliver Bengs
+Key fingerprint = 8F45 91CA 4038 41D3 2FF7  8A65 D3A3 3358 A16E A024
+
+http://jacklab.org
+
+
+From edogawa at aon.at  Sun Jan 27 22:23:18 2008
+From: edogawa at aon.at (Edgar Aichinger)
+Date: Sun, 27 Jan 2008 22:23:18 +0100
+Subject: [Jacklab-devel] test
+Message-ID: <200801272223.19022.edogawa@aon.at>
+
+richtiger absender ;)
+
+edogawa
+
+
+From gimpel at sonnenkinder.org  Sun Jan 27 22:47:41 2008
+From: gimpel at sonnenkinder.org (Thomas Kuther)
+Date: Sun, 27 Jan 2008 22:47:41 +0100
+Subject: [Jacklab-devel] test
+In-Reply-To: <200801272223.19022.edogawa@aon.at>
+References: <200801272223.19022.edogawa@aon.at>
+Message-ID: <20080127224741.4eb883fb@sirius>
+
+On So, 27.01.08 22:23 Edgar Aichinger <edogawa at aon.at> wrote:
+
+> richtiger absender ;)
+> 
+> edogawa
+
+Moo!
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 189 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/jacklab-devel/attachments/20080127/44ecc4e3/attachment.pgp>
+

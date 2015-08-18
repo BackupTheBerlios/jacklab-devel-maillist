@@ -1,0 +1,584 @@
+From core at jacklab.net  Thu Aug 18 22:20:45 2005
+From: core at jacklab.net (JackLab Core Team)
+Date: Thu, 18 Aug 2005 22:20:45 +0200
+Subject: [Jacklab-devel] not so bad
+Message-ID: <4304ED9D.7010705@jacklab.net>
+
+and not so schlimm but good
+
+transform me now
+
+
+From core at jacklab.net  Sat Aug 20 10:25:42 2005
+From: core at jacklab.net (JackLab Core Team)
+Date: Sat, 20 Aug 2005 10:25:42 +0200
+Subject: [Jacklab-devel] Vorschlag Netz-infrastruktur
+Message-ID: <4306E906.3080004@jacklab.net>
+
+Hallo JackLab Team
+
+Der erste Vorschlag den ich hier poste:
+berliOS bietet dem Projekt eine komplette Infrastruktur.
+
+> BerliOS Developer ist ein *freier Dienst* f?r Open Source 
+> <http://www.opensource.org> Entwickler und bietet einfachen Zugang zum 
+> Besten aus CVS/SVN, Mailinglisten, Bug-Tracking, Diskussionsforen, 
+> Aufgabenverwaltung, Webhosting, dauerhafte Dateiarchivierung, Backups 
+> und vollst?ndige Verwaltung per Web-Interface.
+http://developer.berlios.de/docman/index.php?group_id=2
+
+berliOS "getting started"
+http://developer.berlios.de/docman/display_doc.php?docid=50&group_id=2
+
+mein Vorschlag: jeder des Jacklab teams legt sich bei berliOS einen
+developer account an:
+http://developer.berlios.de/account/register.php
+
+Wir k?nnten unser Projekt dort komplett hosten und neu organisieren.
+
+der Zugang erfolgt per ssh/webinterfaces.
+
+-jacklab.net zieht auf berliOS. Das einzige was ich weiterhin stelle ist
+die URL.
+-ich verkleiner meinen webspace drastisch und habe weniger kosten
+-ich habe gerade jacklab.org registriert - die Kosten f?r ein Jahr und
+Registrierung sind auf dem JackLab Konto gedeckt durch eine Spende von 40?
+-jacklab.net als Portal f?r die User und die org als Portal f?r das Team
+/die Entwicklung
+-wir planen die schritte zur re/neuorganistaion genau
+-Wir nutzen den Server auf berliOS auch f?r die Mirror Repositories - so
+wie ich das sehe haben wir da relativ viel Platz. Mir sind die
+technischen Einschr?nkungen noch nicht klar was rsync / ftp betrifft,
+weil hier ja ssh bevorzugt wird. Ich bin ja ehrlichgesagt auch kein
+Serveradmin, um das wirklich beurteilen zu k?nnen.
+http://developer.berlios.de/docman/display_doc.php?docid=60&group_id=2
+anonymer ftp ist m?glich
+http://developer.berlios.de/docman/display_doc.php?docid=57&group_id=2
+
+So das reicht glaube ich erstmal
+
+Michael
+
+
+
+-
+
+
+
+
+
+
+From gimpel at sonnenkinder.org  Sat Aug 20 10:56:56 2005
+From: gimpel at sonnenkinder.org (Thomas Kuther)
+Date: Sat, 20 Aug 2005 10:56:56 +0200
+Subject: [Jacklab-devel] Vorschlag Netz-infrastruktur
+In-Reply-To: <4306E906.3080004@jacklab.net>
+References: <4306E906.3080004@jacklab.net>
+Message-ID: <20050820105656.34337dbc@SiRiUS.home>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Sat, 20 Aug 2005 10:25:42 +0200
+JackLab Core Team <core at jacklab.net> wrote:
+
+> Hallo JackLab Team
+> 
+> Der erste Vorschlag den ich hier poste:
+> berliOS bietet dem Projekt eine komplette Infrastruktur.
+> 
+> > BerliOS Developer ist ein *freier Dienst* f?r Open Source 
+> > <http://www.opensource.org> Entwickler und bietet einfachen Zugang
+> > zum Besten aus CVS/SVN, Mailinglisten, Bug-Tracking,
+> > Diskussionsforen, Aufgabenverwaltung, Webhosting, dauerhafte
+> > Dateiarchivierung, Backups und vollst?ndige Verwaltung per
+> > Web-Interface.
+> http://developer.berlios.de/docman/index.php?group_id=2
+> 
+> berliOS "getting started"
+> http://developer.berlios.de/docman/display_doc.php?docid=50&group_id=2
+> 
+> mein Vorschlag: jeder des Jacklab teams legt sich bei berliOS einen
+> developer account an:
+> http://developer.berlios.de/account/register.php
+> 
+> Wir k?nnten unser Projekt dort komplett hosten und neu organisieren.
+> 
+> der Zugang erfolgt per ssh/webinterfaces.
+> 
+> -jacklab.net zieht auf berliOS. Das einzige was ich weiterhin stelle
+> ist die URL.
+> -ich verkleiner meinen webspace drastisch und habe weniger kosten
+
+sehr gut!
+
+> -ich habe gerade jacklab.org registriert - die Kosten f?r ein Jahr und
+> Registrierung sind auf dem JackLab Konto gedeckt durch eine Spende
+> von 40___ -jacklab.net als Portal f?r die User und die org als Portal
+> f?r das Team /die Entwicklung
+
+seh ich die notwendigkeit nicht ganz.. jacklab.berlios.de is OK. viele
+projekte haben .berlios.de oder .sourceforge.net. aber wenn sich die
+kosten durch spenden decken bzw in grenzen halten lassen, ist das OK
+
+> -wir planen die schritte zur re/neuorganistaion genau
+> -Wir nutzen den Server auf berliOS auch f?r die Mirror Repositories -
+> so wie ich das sehe haben wir da relativ viel Platz. Mir sind die
+> technischen Einschr?nkungen noch nicht klar was rsync / ftp betrifft,
+> weil hier ja ssh bevorzugt wird. Ich bin ja ehrlichgesagt auch kein
+> Serveradmin, um das wirklich beurteilen zu k?nnen.
+> http://developer.berlios.de/docman/display_doc.php?docid=60&group_id=2
+> anonymer ftp ist m?glich
+> http://developer.berlios.de/docman/display_doc.php?docid=57&group_id=2
+> 
+> So das reicht glaube ich erstmal
+> 
+> Michael
+> 
+
+Was anderes noch:
+
+Jetzt ist es ja noch nicht so wichtig, aber so allgemein w?re es nicht
+besser die liste englisch zu halten? landet ja alles in den pipermail
+archiven, wird von g00gle indiziert etc. 
+W?re mal interessant zu sehen wo der gro?teil der besucher von
+jacklab.net herkommen.. gibts da stats?
+
+
+gru?
+tom
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.2.6 (GNU/Linux)
+
+iD8DBQFDBvBe21TUzfKRUn4RAlxfAJ4hQpfq310KLbtfhoT8DeT60MRi8ACfVCfQ
+ecTTM4ErZWpRf1S6mr3qFdw=
+=Hv5B
+-----END PGP SIGNATURE-----
+
+
+From core at jacklab.net  Sat Aug 20 11:36:34 2005
+From: core at jacklab.net (JackLab Core Team)
+Date: Sat, 20 Aug 2005 11:36:34 +0200
+Subject: [Jacklab-devel] Treffen im Herbst
+Message-ID: <4306F9A2.7040908@jacklab.net>
+
+Was wir in Hofheim angedacht haben:
+
+Im Herbst ein JackLab Treffen zu veranstalten. Folgende Punkte sind nur
+Vorschl?ge.
+
+Folgende Fragen:
+
+Zeit:
+-An einem WE im November
+-???
+
+Ort:
+-Ich tendiere eher zu Mitte Deutschland
+-Es sollte ein Tagungshaus sein
+
+Features:
+-Nicht zu teuer
+-Internetanschluss
+-eine ?bernachtung
+-Selbstversorgung
+-Live Musik am Abend/Party
+-???
+
+M?gliche Sponsoren
+-SuSE / Novell
+-Ego Systems (ESI)
+-???
+
+Es soll wie eine Fachtagung aufgezogen werden, mit G?sten.
+Ich w?rde gerne einladen:
+-Mathias Nagorni (SuSE Produkt Manager und Entwickler des Alsa Modular
+Synth)
+-Claus Riethm?ller (ESI Deutschland, AudioPro Hardware Hersteller)
+-Nikolas Riehm (Produzent, Musiker und freier Redakteur der Keyboards)
+-???
+
+Folgender Tagesablauf ist m?glich:
+
+Ankommen Sa Mittag, Gemeinsames Brunch.
+-Begr?ssung
+-Workshop "Wie funktioniert JAD"
+Projektgruppen zu den Themen
+-CD ISO
+-Interne Organisation
+-?ffentlichkeitsarbeit
+-Visionswerkstatt
+
+So das sind alles nur Vorschl?ge - wer noch Ideen hat m?ge bitte erg?nzen
+-Wer ein nettes Tagungshaus kennt im Raum Mitte Deutschland (200km um
+Frankfurt)
+-Wer noch Sponsoren kennt, F?rderungm?glichkeiten
+-Themen die fehlen
+-ist der Zeitpunkt OK?
+
+
+Gruss
+Michael
+
+
+
+
+
+-
+
+
+
+From core at jacklab.net  Sat Aug 20 11:39:55 2005
+From: core at jacklab.net (JackLab Core Team)
+Date: Sat, 20 Aug 2005 11:39:55 +0200
+Subject: Sprache dieser ML, war: Re: [Jacklab-devel] Vorschlag Netz-infrastruktur
+In-Reply-To: <20050820105656.34337dbc@SiRiUS.home>
+References: <4306E906.3080004@jacklab.net> <20050820105656.34337dbc@SiRiUS.home>
+Message-ID: <4306FA6B.6020605@jacklab.net>
+
+Das ist glatt ein Neues Topic
+> Was anderes noch:
+>
+> Jetzt ist es ja noch nicht so wichtig, aber so allgemein w?re es nicht
+> besser die liste englisch zu halten? landet ja alles in den pipermail
+> archiven, wird von g00gle indiziert etc. 
+> W?re mal interessant zu sehen wo der gro?teil der besucher von
+> jacklab.net herkommen.. gibts da stats?
+>
+>
+>   
+Ich bin f?r gemischtsprachig
+-80% der jacklab.net Besucher kommen aus dem Deutschsprachigen Raum
+(sagen die stats)
+-Das bisherige Team ist komplet deutschsprachig
+-mein Vorschlag: Wichtige Inhalte werden zusammengefasst ?bersetzt
+-englische Topics werden auch in englisch gehalten und zusammengefasst
+?bersetzt
+> gru?
+> tom
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.2.6 (GNU/Linux)
+>
+> iD8DBQFDBvBe21TUzfKRUn4RAlxfAJ4hQpfq310KLbtfhoT8DeT60MRi8ACfVCfQ
+> ecTTM4ErZWpRf1S6mr3qFdw=
+> =Hv5B
+> -----END PGP SIGNATURE-----
+> _______________________________________________
+> Jacklab-devel mailing list
+> Jacklab-devel at lists.berlios.de
+> http://lists.berlios.de/mailman/listinfo/jacklab-devel
+>   
+
+
+
+
+From gimpel at sonnenkinder.org  Sat Aug 20 11:43:33 2005
+From: gimpel at sonnenkinder.org (Thomas Kuther)
+Date: Sat, 20 Aug 2005 11:43:33 +0200
+Subject: Sprache dieser ML, war: Re: [Jacklab-devel] Vorschlag
+ Netz-infrastruktur
+In-Reply-To: <4306FA6B.6020605@jacklab.net>
+References: <4306E906.3080004@jacklab.net>
+	<20050820105656.34337dbc@SiRiUS.home>
+	<4306FA6B.6020605@jacklab.net>
+Message-ID: <20050820114333.00cb1e14@SiRiUS.home>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Sat, 20 Aug 2005 11:39:55 +0200
+JackLab Core Team <core at jacklab.net> wrote:
+
+> Das ist glatt ein Neues Topic
+> > Was anderes noch:
+> >
+> > Jetzt ist es ja noch nicht so wichtig, aber so allgemein w?re es
+> > nicht besser die liste englisch zu halten? landet ja alles in den
+> > pipermail archiven, wird von g00gle indiziert etc. 
+> > W?re mal interessant zu sehen wo der gro?teil der besucher von
+> > jacklab.net herkommen.. gibts da stats?
+> >
+> >
+> >   
+> Ich bin f?r gemischtsprachig
+> -80% der jacklab.net Besucher kommen aus dem Deutschsprachigen Raum
+> (sagen die stats)
+> -Das bisherige Team ist komplet deutschsprachig
+> -mein Vorschlag: Wichtige Inhalte werden zusammengefasst ?bersetzt
+> -englische Topics werden auch in englisch gehalten und zusammengefasst
+> ?bersetzt
+
+OK, dann schreib ich das so auch mal in die list-info, damit sich
+andere durch das "deutsche gelaber" nicht abgeschreckt f?hlen, hehe
+
+gru?
+tom
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.2.6 (GNU/Linux)
+
+iD8DBQFDBvtK21TUzfKRUn4RAgzmAKCKRjgeAyNDEpYu9GtnJ0cCkI3GrQCgpF2o
+uzv1IGw/o+H4jPxEahG0amg=
+=PRJy
+-----END PGP SIGNATURE-----
+
+
+From core at jacklab.net  Sat Aug 20 12:15:15 2005
+From: core at jacklab.net (JackLab Core Team)
+Date: Sat, 20 Aug 2005 12:15:15 +0200
+Subject: [Jacklab-devel] Vorschlag Netz-infrastruktur
+In-Reply-To: <20050820105656.34337dbc@SiRiUS.home>
+References: <4306E906.3080004@jacklab.net> <20050820105656.34337dbc@SiRiUS.home>
+Message-ID: <430702B3.4060807@jacklab.net>
+
+
+>> -ich habe gerade jacklab.org registriert - die Kosten f?r ein Jahr und
+>> Registrierung sind auf dem JackLab Konto gedeckt durch eine Spende
+>> von 40___ -jacklab.net als Portal f?r die User und die org als Portal
+>> f?r das Team /die Entwicklung
+>>     
+>
+> seh ich die notwendigkeit nicht ganz.. jacklab.berlios.de is OK. viele
+> projekte haben .berlios.de oder .sourceforge.net. aber wenn sich die
+> kosten durch spenden decken bzw in grenzen halten lassen, ist das OK
+>
+>   
+
+Es ist technisch gesehen nicht n?tig, das hat was mit "Tradition" zu 
+tun: alle freien Softwareprojekte haben normalerweise eine org und warum 
+sollten wir das anders halten. Und wer weiss was mit berliOS in einem 
+Jahr ist....
+Das war mein Gedanke.
+Weitere Domains zu sichern halte ich aber nicht f?r notwendig.
+
+
+From r.neike at gmx.de  Sat Aug 20 14:41:51 2005
+From: r.neike at gmx.de (Renate Neike)
+Date: Sat, 20 Aug 2005 14:41:51 +0200
+Subject: [Jacklab-devel] Vorschlag Netz-infrastruktur
+In-Reply-To: <4306E906.3080004@jacklab.net>
+References: <4306E906.3080004@jacklab.net>
+Message-ID: <1124541711.6840.10.camel@reni.demi>
+
+Am Samstag, den 20.08.2005, 10:25 +0200 schrieb JackLab Core Team:
+> Hallo JackLab Team
+> 
+> Der erste Vorschlag den ich hier poste:
+> berliOS bietet dem Projekt eine komplette Infrastruktur.
+> 
+> > BerliOS Developer ist ein *freier Dienst* f?r Open Source 
+> > <http://www.opensource.org> Entwickler und bietet einfachen Zugang zum 
+> > Besten aus CVS/SVN, Mailinglisten, Bug-Tracking, Diskussionsforen, 
+> > Aufgabenverwaltung, Webhosting, dauerhafte Dateiarchivierung, Backups 
+> > und vollst?ndige Verwaltung per Web-Interface.
+> http://developer.berlios.de/docman/index.php?group_id=2
+> 
+> berliOS "getting started"
+> http://developer.berlios.de/docman/display_doc.php?docid=50&group_id=2
+> 
+> mein Vorschlag: jeder des Jacklab teams legt sich bei berliOS einen
+> developer account an:
+> http://developer.berlios.de/account/register.php
+> 
+Hast du diese Mail auch an die noch nicht registrierten Team-Mitglieder
+geschickt ?
+
+> Wir k?nnten unser Projekt dort komplett hosten und neu organisieren.
+> der Zugang erfolgt per ssh/webinterfaces.
+> -jacklab.net zieht auf berliOS. Das einzige was ich weiterhin stelle ist
+> die URL.
+> -ich verkleiner meinen webspace drastisch und habe weniger kosten
+
+Dann steht uns also ein Mambo-Umzug bevor.
+Ist AFIK nicht unkritisch, aber ich kann mich in diversen Foren dar?ber
+schlau machen.
+Oder hast du evt. an etwas v?llig anderes, ein anderes CMS gedacht ?
+
+> -ich habe gerade jacklab.org registriert - die Kosten f?r ein Jahr und
+> Registrierung sind auf dem JackLab Konto gedeckt durch eine Spende von 40?
+> -jacklab.net als Portal f?r die User und die org als Portal f?r das Team
+> /die Entwicklung
+Ist diese Trennung wirklich erforderlich?
+Welche Inhalte der momentan aktuellen Seite jacklab.net w?rdest du dann
+lieber auf jacklab.org sehen?
+
+> -wir planen die schritte zur re/neuorganistaion genau
+auf jeden Fall ... IMHO sollten wir nichts ?berst?rzen.
+
+> -Wir nutzen den Server auf berliOS auch f?r die Mirror Repositories - so
+> wie ich das sehe haben wir da relativ viel Platz. Mir sind die
+> technischen Einschr?nkungen noch nicht klar was rsync / ftp betrifft,
+> weil hier ja ssh bevorzugt wird. Ich bin ja ehrlichgesagt auch kein
+> Serveradmin, um das wirklich beurteilen zu k?nnen.
+> http://developer.berlios.de/docman/display_doc.php?docid=60&group_id=2
+> anonymer ftp ist m?glich
+> http://developer.berlios.de/docman/display_doc.php?docid=57&group_id=2
+> 
+> So das reicht glaube ich erstmal
+> 
+> Michael
+> 
+Renate
+> 
+> -
+> 
+> 
+> 
+> 
+> _______________________________________________
+> Jacklab-devel mailing list
+> Jacklab-devel at lists.berlios.de
+> http://lists.berlios.de/mailman/listinfo/jacklab-devel
+> 
+
+
+
+From r.neike at gmx.de  Sat Aug 20 14:44:25 2005
+From: r.neike at gmx.de (Renate Neike)
+Date: Sat, 20 Aug 2005 14:44:25 +0200
+Subject: [Jacklab-devel] Treffen im Herbst
+In-Reply-To: <4306F9A2.7040908@jacklab.net>
+References: <4306F9A2.7040908@jacklab.net>
+Message-ID: <1124541865.6840.14.camel@reni.demi>
+
+Am Samstag, den 20.08.2005, 11:36 +0200 schrieb JackLab Core Team:
+> Was wir in Hofheim angedacht haben:
+> 
+> Im Herbst ein JackLab Treffen zu veranstalten. Folgende Punkte sind nur
+> Vorschl?ge.
+> 
+> Folgende Fragen:
+> 
+> Zeit:
+> -An einem WE im November
+> -???
+> 
+> Ort:
+> -Ich tendiere eher zu Mitte Deutschland
+> -Es sollte ein Tagungshaus sein
+> 
+> Features:
+> -Nicht zu teuer
+> -Internetanschluss
+> -eine ?bernachtung
+> -Selbstversorgung
+> -Live Musik am Abend/Party
+> -???
+> 
+> M?gliche Sponsoren
+> -SuSE / Novell
+> -Ego Systems (ESI)
+> -???
+> 
+> Es soll wie eine Fachtagung aufgezogen werden, mit G?sten.
+> Ich w?rde gerne einladen:
+> -Mathias Nagorni (SuSE Produkt Manager und Entwickler des Alsa Modular
+> Synth)
+> -Claus Riethm?ller (ESI Deutschland, AudioPro Hardware Hersteller)
+> -Nikolas Riehm (Produzent, Musiker und freier Redakteur der Keyboards)
+> -???
+> 
+> Folgender Tagesablauf ist m?glich:
+> 
+> Ankommen Sa Mittag, Gemeinsames Brunch.
+> -Begr?ssung
+> -Workshop "Wie funktioniert JAD"
+> Projektgruppen zu den Themen
+> -CD ISO
+> -Interne Organisation
+> -?ffentlichkeitsarbeit
+> -Visionswerkstatt
+> 
+> So das sind alles nur Vorschl?ge - wer noch Ideen hat m?ge bitte erg?nzen
+> -Wer ein nettes Tagungshaus kennt im Raum Mitte Deutschland (200km um
+> Frankfurt)
+> -Wer noch Sponsoren kennt, F?rderungm?glichkeiten
+> -Themen die fehlen
+> -ist der Zeitpunkt OK?
+> 
+> 
+> Gruss
+> Michael
+> 
+wow ... eine "Messe" als erstes Treffen?
+W?re nicht evt. ein Team-interna-Treffen als Erstes angebrachter?
+Dabei k?nnte man dann genau so eine "Fachtagung" planen und
+Organisationsans?tze finden/festlegen.
+
+Gru?
+Renate
+> 
+> 
+> 
+> -
+> 
+> _______________________________________________
+> Jacklab-devel mailing list
+> Jacklab-devel at lists.berlios.de
+> http://lists.berlios.de/mailman/listinfo/jacklab-devel
+> 
+
+
+
+From core at jacklab.net  Sat Aug 20 15:37:20 2005
+From: core at jacklab.net (JackLab Core Team)
+Date: Sat, 20 Aug 2005 15:37:20 +0200
+Subject: [Jacklab-devel] Treffen im Herbst
+In-Reply-To: <1124541865.6840.14.camel@reni.demi>
+References: <4306F9A2.7040908@jacklab.net> <1124541865.6840.14.camel@reni.demi>
+Message-ID: <43073210.2070504@jacklab.net>
+
+>>
+>> So das sind alles nur Vorschl?ge - wer noch Ideen hat m?ge bitte erg?nzen
+>> -Wer ein nettes Tagungshaus kennt im Raum Mitte Deutschland (200km um
+>> Frankfurt)
+>> -Wer noch Sponsoren kennt, F?rderungm?glichkeiten
+>> -Themen die fehlen
+>> -ist der Zeitpunkt OK?
+>>
+>>
+>> Gruss
+>> Michael
+>>
+>>     
+> wow ... eine "Messe" als erstes Treffen?
+> W?re nicht evt. ein Team-interna-Treffen als Erstes angebrachter?
+> Dabei k?nnte man dann genau so eine "Fachtagung" planen und
+> Organisationsans?tze finden/festlegen.
+>   
+Wenn wir Gl?ck haben werden 10 leute zusammenkommen : eine "Messe" ist 
+doch was anderes.
+Ich dachte hier eher an ein Fachtagung, Mathias will uns sowieso 
+unterst?tzen wg CD ISO, Claus ist der einzige Mensch im ProAudiobiz der 
+uns mit extrem viel Audiodurchblick helfen kann, genauso Noki, der ja eh 
+schon als JackLab User registriert ist, den halte ich f?r einen 
+kompetenten Menschen, der genau weiss was der User will und auch Vision 
+und Weitblick besitzt. Diese 3 Vertreter also (ich weiss ja noch gar 
+nicht ob die Zeit haben)  zusammen mit dem Team. Bitte ?berbewertet 
+meine sachliche Gliederung nicht. Aber nur eine Party soll es auch nicht 
+sein -> Dazu hat uns ja der oc2pus grad eingeladen, aber das wird er 
+sicher noch posten :)
+
+Gruss
+Michael
+> Gru?
+> Renate
+>   
+>>
+>> -
+>>
+>> _______________________________________________
+>> Jacklab-devel mailing list
+>> Jacklab-devel at lists.berlios.de
+>> http://lists.berlios.de/mailman/listinfo/jacklab-devel
+>>
+>>     
+>
+> _______________________________________________
+> Jacklab-devel mailing list
+> Jacklab-devel at lists.berlios.de
+> http://lists.berlios.de/mailman/listinfo/jacklab-devel
+>   
+
+
+
